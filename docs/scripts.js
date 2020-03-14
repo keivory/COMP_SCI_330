@@ -15,7 +15,7 @@ const save = (ev) => {
 
 const homepage = (ev) => {
     console.log("homepage is called")
-    window.location.href = 'february.html';
+    window.location.href = 'index.html';
     
 };
 
