@@ -1,0 +1,59 @@
+
+ 
+ * {
+    box-sizing: border-box;
+    overflow: auto;
+ }
+ 
+ .fullscreen {
+    background-color: #DABFFF;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    padding: 50px;
+    font-size: 15px;
+ }
+ 
+ 
+ 
+ 
+ .close{
+     height:30px;
+ }
+ 
+ 
+ 
+ 
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+   width: 100%; /* Full width */
+   padding: 12px; /* Some padding */ 
+   border: 1px solid #ccc; /* Gray border */
+   border-radius: 4px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 6px; /* Add a top margin */
+   margin-bottom: 16px; /* Bottom margin */
+   resize: vertical 
+ }
+ 
+ /* Style the submit button with a specific background color etc */
+
+ /* When moving the mouse over the submit button, add a darker green color */
+ 
+ /* Add a background color and some padding around the form */
+ .container {
+   border-radius: 5px;
+   background-color: #f2f2f2;
+   padding: 20px;
+ }
+
+ .hidden {
+   display:none
+
+ }
+
+ #remind {
+   color: red;
+ }

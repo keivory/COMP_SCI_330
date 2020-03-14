@@ -1,0 +1,106 @@
+body {
+  display: flex;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background-color: lightBlue;
+  padding-left: 400px;
+}
+h3 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  font-size: 30px;
+}
+
+.fas {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  grid-column-start: 1;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-smile-beam {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  font-size: 50px;
+  color: green;
+}
+
+section{
+  display: flex;
+  height: 680px;
+  width: 450px;
+  align-items: stretch;
+  border: 2px solid #333333;
+  border-spacing: 3em;
+  background-color: white;
+  font-family: "Arial", Arial, sans-serif;
+  font-style: none;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: .1fr .1fr .5fr .2fr 2fr;
+
+
+}
+
+ul {
+  grid-row-start: 5;
+  grid-column-start: 4;
+}
+
+.tags {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-spacing: 5px;
+  border: 2px solid lightBlue;
+  padding: 5px;
+  align-self: center;
+  font-size: 13px;
+}
+
+.emotion {
+  grid-row-start: 3;
+  grid-column-start: 4;
+  font-size: 20px;
+  align-items: center;
+}
+
+#ref-head {
+  grid-row-start: 4;
+  grid-column-start: 2;
+
+}
+
+#entry {
+  grid-row-start: 5;
+  grid-column-start: 2;
+  text-align: left;
+  font-size: 15px;
+}
+
+#tag-head {
+  grid-row-start: 4;
+  grid-column-start: 4;
+}
+
+h4 {
+    font-size: 20px;
+}
+img {
+  height: 690px;
+  width: 1500px;
+}
+
+.past-reflection {
+  display: flex;
+  align-items:flex-start;
+}

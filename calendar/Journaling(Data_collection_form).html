@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Journaling.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+</head>
+<body>
+
+<section class="fullscreen">
+ <button id="close" onclick="homepagefromjournal()">
+  <i class="fas fa-chevron-left"></i>
+</button>
+  <form name=journaling>
+   
+     
+
+    <label for="Poorly">What's could have gone better today?</label>
+    <input type="text" id="well" name="Well" placeholder="It's okay, no days are perfect.">
+
+    <label for="Well">What's something that went well today?</label>
+    <input type="text" id="well" name="Well" placeholder="There's got to be something that made you smile today right?">
+   
+
+    <label for="mood">Select a mood: *
+      <div class = hidden id = "remind">
+        you forgot a mood!
+      </div>
+    </label>
+    <select id="mood" name="mood" >
+      <option value="placeholder">Mood</option>
+      <option value="Excited">Excited 😝</option>
+      <option value="Happy">Happy 😀</option>
+      <option value="Content">Content 🙂</option>
+      <option value="Meh">Meh 😐</option>
+      <option value="Unhappy">Unhappy 🙁</option>
+      <option value="Sad">Sad 😥</option>
+      <option value="Angry">Angry 😡</option>
+      
+    </select>
+
+    <label for="Reasoning ">Reasoning for mood</label>
+    <input type="text" id="reasoning" name="mood_reasoning" placeholder="Your reasoning for your mood...">
+
+    <label for="Journaling">Journal Section</label>
+    <textarea id="subject" name="subject" placeholder="How was your day?" style="height:200px"></textarea>
+
+    <button type="button" onclick="formCheck()" >Submit </button>
+    <script type="text/javascript" src="journalingscripts.js"></script>
+    
+  </form>
+   
+   
+</section>

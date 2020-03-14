@@ -1,0 +1,77 @@
+main{
+  display: grid;
+  grid-column: 2;
+  padding-top: 10px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr .2fr .2fr .2fr .2fr .2fr .2fr .2fr .2fr ;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.event-name {
+
+  grid-column-start: 2;
+  grid-row-start: 2;
+  border-bottom: 2px solid black;
+  border-spacing: 3em;
+  border-top-left-radius: 100px;
+  width: 100%; /* Full width */
+   padding: 12px; /* Some padding */ 
+   border: 1px solid #ccc; /* Gray border */
+   border-radius: 4px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 6px; /* Add a top margin */
+   margin-bottom: 16px; /* Bottom margin */
+   resize: vertical
+}
+.event-place {
+  grid-column-start: 2;
+  grid-row-start: 4;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 100px;
+  width: 100%; /* Full width */
+   padding: 12px; /* Some padding */ 
+   border: 1px solid #ccc; /* Gray border */
+   border-radius: 4px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 6px; /* Add a top margin */
+   margin-bottom: 16px; /* Bottom margin */
+   resize: vertical
+}
+.event-info {
+  grid-column-start: 2;
+  grid-row-start: 8;
+  border-bottom: 2px solid black;
+  border-spacing: 3em;
+  border-top-left-radius: 100px;
+  width: 100%; /* Full width */
+   padding: 12px; /* Some padding */ 
+   border: 1px solid #ccc; /* Gray border */
+   border-radius: 4px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 6px; /* Add a top margin */
+   margin-bottom: 16px; /* Bottom margin */
+   resize: vertical
+}
+
+#save {
+  grid-column-start: 2;
+  grid-row-start: 9;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.fas {
+  width: 20px;
+  cursor: pointer;
+}
+
+button {
+  width: 40px;
+}
+#save button{
+  width:200px;
+}
