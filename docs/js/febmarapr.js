@@ -9,7 +9,7 @@ document.querySelector('.next').onclick = (ev) => {
 };
 
 const prevMonth = (ev) => {
-    window.location.href = 'february.html';
+    window.location.href = 'index.html';
 };
 
 document.querySelector('.prev').onclick = (ev) => {

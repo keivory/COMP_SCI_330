@@ -1,6 +1,6 @@
 // jan-feb script
 const nextMonth = (ev) => {
-    window.location.href = 'february.html';
+    window.location.href = 'index.html';
 };
 
 document.querySelector('.next').onclick = (ev) => {

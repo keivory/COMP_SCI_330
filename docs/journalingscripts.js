@@ -7,12 +7,12 @@ const formCheck = (ev) => {
     else
     {
         alert("Journal saved!");
-        window.location.href = 'february.html';
+        window.location.href = 'index.html';
     }
 };
 
 const homepagefromjournal = (ev) => {
-    window.location.href = 'february.html';
+    window.location.href = 'index.html';
 };
 
 const closeform = (ev) => {
