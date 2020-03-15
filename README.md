@@ -9,10 +9,12 @@ One of the ideas we built upon was journaling; journaling helps to control overw
 
 
 ## High-Fidelity Prototyping (P5, P6, & P7) ##
-- Task #1: We implemented the task of checking a mental health reflection entry from a past date. In particular, if the user has a past entry on his emotional state (this is separate from the generic event input) then he can find an entry on that date, and if he clicks on it the mental health reflection (mood, reflections, journal tag, etc) will pop up. 
+- Task #1: We implemented the task of checking a mental health reflection entry from a past date (Febuary 3rd). In particular, if the user has a past entry on his emotional state (this is separate from the generic event input) then he can find an entry on that date, and if he clicks on it the mental health reflection (mood, reflections, journal tag, etc) will pop up. 
 ![Screen Shot 2020-03-14 at 7 08 20 PM](https://user-images.githubusercontent.com/32556569/76692840-05315480-662a-11ea-9df9-65401c606ec9.png)
 
-- Component #1: We have implemented the custom calendar to support this task. The idea is that users can record their mood and journal on each day, and check those entries from the past. 
+- Component #1: We have implemented the custom calendar to support this task. The idea is that users can record their mood and journal on each day, and check those entries from the past. The calendar also allows users to add events to a future date (Febuary 26th)
+![Screen Shot 2020-03-14 at 7 47 24 PM](https://user-images.githubusercontent.com/32556569/76693031-df597f00-662c-11ea-8dbb-af55fb315f72.png)
+
  
 - Task #2: For the user to be able to add a current mood and journal entry to the current date (at the time of writing the code, this was 23 February, so our prototype supports journal entry for that date). The app features, for the current date, two buttons: “Mood” and “Journal.” The former gives a simple popup list of many moods to choose from (represented by emojis), and the latter lets the user write a more detailed journal to summarize the day. We decided to separate these two because we don’t expect the user to write a journal every single day; sometimes all the user simply wants to record his mood for the day. 
 
