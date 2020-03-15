@@ -1,4 +1,7 @@
-ul {list-style-type: none;}
+
+ul {
+  list-style-type: none;
+}
 body {
   display: inline-block;
   flex-direction: row;
@@ -16,12 +19,12 @@ td{
 }
 
 
-  #month {
+#month {
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
-  text-align: center !important;
-  }
+    text-align: center !important;
+}
 
   #month td, #month th {
     border: 1px solid #ddd;
@@ -93,7 +96,7 @@ td{
   text-align: center;
   margin: 0;
   text-align: center !important;
-
+  overflow: hidden;
 
 }
 .month thead {
